@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Maria's Running Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Create the navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Create the home section -->
+    <section id="home">
+        <div class="container">
+            <header>
+                <h1>Maria Polyakov's Running Website</h1>
+                <img src="run.png" alt="Maria Polyakov">
+                <p>Welcome to my personal website! Here, you can learn more about me and my runs.</p>
+            </header>
+        </div>
+    </section>
+
+    <!-- Create the videos section -->
+    <section id="videos">
+        <div class="container">
+            <h2>Videos</h2>
+            <!-- Add your videos here -->
+            <video controls>
+                <source src="record3.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="record2.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="record.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- Create the schedule section -->
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <!-- Add your schedule information here -->
+        </div>
+    </section>
+
+    <!-- Create the contact form section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <!-- Add your contact form here -->
+            <form 
+            action="https://formspree.io/f/xrgwelvw"
+                method="POST"
+                >
+                <!-- Add form fields here (e.g., name, email, message) -->
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <!-- modify this form HTML and place wherever you want your form -->
+</body>
+
+</html>

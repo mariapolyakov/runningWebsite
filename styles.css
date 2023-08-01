@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-color: #d2c8ff;
+    color: #333;
+  }
+  a {
+    color: #f8bfff;
+    text-decoration: none;
+  }
+
+  /* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   */
+  /* Navigation Styles */
+  nav {
+    background-color: #d2c8ff;
+    color: #000000;
+    padding: 10px 350px;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav a {
+    color: #000000;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  /* Home Section Styles */
+  #home {
+    text-align: center;
+    padding: 40px 0;
+  }
+  #home h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  #home p {
+    font-size: 18px;
+  }
+  
+  /* Videos and Schedule Styles */
+  .container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Form Styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 36px;
+    }
+    header p {
+      font-size: 16px;
+    }
+    #home h1 {
+      font-size: 36px;
+    }
+    #home p {
+      font-size: 16px;
+    }
+    .container h2 {
+      font-size: 24px;
+    }
+  }
+  /* CSS to style the video element */
+video {
+  max-width: 30%; /* Limit the video width to the container's width */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  display: block; /* Ensure the video is displayed as a block-level element */
+  /* CSS to space the videos apart */
+  margin-bottom: 20px; /* Add margin at the bottom to create space between videos */
+  margin-right: 20px; /* Add margin at the right to create space between videos */
+}
+
+
+
+  
